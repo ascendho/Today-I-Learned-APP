@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Today-I-Learned APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repo is for <a href="https://www.udemy.com/course/full-stack-crash-course/">Crash Course: Build a Full-Stack Web App in a Weekend!</a> made by <a href="https://github.com/jonasschmedtmann">Jonas Schmedtmann</a>, the app is live at <a href="https://todayilearned-jonas.netlify.app/">today-i-learned</a>
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## Folder clarification
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**vanilla-js:** includes vanilla JavaScript implementation for this app (but not functionally sound)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**slides:** includes complete slides for this course
 
-### `npm test`
+**public && src:** includes complete implementation for this small full-stack app based on React framework
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Init Project Locally
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/ascendho/Today-I-Learned-APP.git
+```
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Set up a react project:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npx create-react-app my-app
+cd my-app
+npm start
+```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Install supabase client:
 
-### Code Splitting
+```bash
+npm install @supabase/supabase-js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Tech Stack
 
-### Making a Progressive Web App
+- HTML、CSS、JavaScript
+- <a href="https://reactjs.org/">React</a>
+- <a href="https://supabase.com/">supabase</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
+The only useful information about the license from the original author <a href="https://github.com/jonasschmedtmann">Jonas Schmedtmann</a> is as follows:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+> ### Q8: I want to put these projects in my portfolio. Is that allowed?
+>
+> **A:** Absolutely! Just make sure you actually built them yourself by following the course, and that you understand what you did. What is **not allowed** is that you create your own course/videos/articles based on this course's content!
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
